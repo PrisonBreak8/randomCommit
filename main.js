@@ -1,5 +1,6 @@
 //GitHub API Library
-const { Octokit } = require('@octokit/rest');
+// const { Octokit } = require('@octokit/rest');
+import { Octokit } from "@octokit/rest";
 
 //Insert your GitHub tokens here in next format ['token1', 'token2', 'token3']
 const gitTokens = ['token1',
